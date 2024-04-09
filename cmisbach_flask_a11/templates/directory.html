@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block body %}
+  <h1>Directory of Links</h1>
+  <ul>
+    {% for shortcode, url in mappings %}
+      <li>{{ shortcode }} - {{ url }}</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

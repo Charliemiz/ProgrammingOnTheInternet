@@ -1,0 +1,8 @@
+Python Official Documentation|https://docs.python.org/3/
+Flask Micro Web Framework Official Site|https://flask.palletsprojects.com/en/2.0.x/
+Real Python - Python Tutorials|https://realpython.com/
+Full Stack Python - Flask Guide|https://www.fullstackpython.com/flask.html
+PyPI - The Python Package Index|https://pypi.org/
+Python Weekly - A Free, Weekly Python E-mail Newsletter|https://www.pythonweekly.com/
+xkcd - A webcomic of romance, sarcasm, math, and language|https://xkcd.com/
+The Onion - Satirical News Site|https://www.theonion.com/

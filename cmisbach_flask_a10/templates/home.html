@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block body %}
+  <h1>This is my blog!</h1>
+  {% for entry in entries %}
+    <div class="blog-entry">
+      <h2>{{ entry.title }}</h2>
+      <p><small>Posted on: {{ entry.date }}</small></p>
+      <div>{{ entry.content | safe }}</div>
+    </div>
+  {% endfor %}
+{% endblock %}

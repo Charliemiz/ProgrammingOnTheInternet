@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        {% block head %}
+        <title>{% block title %}{% endblock %} Blog Site </title>
+        {% endblock %}
+
+        <link rel="stylesheet" type="text/css" href="{{url_for('static', filename="css/styles.css")}}">
+
+    </head>
+    <body>
+        <nav>
+            <ul>
+                {% for p in pages: %}
+                    <li><a href="{{ url_for(pages[p]) }}">{{ p }}</a></li>
+                {% endfor %}
+            </ul>
+        </nav>
+        <div class="container">
+            {% block body %}
+            {% endblock %}
+        </div>
+    </body>
+</html>

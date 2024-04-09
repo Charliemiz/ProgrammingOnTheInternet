@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+
+{% block body %}
+<section>
+<h1>Introduction</h1>
+<p> My name is Charlie Misbach I was born in Ohio on December 29, 2003. I am currently 19 years old and I am going to school for Computer Science at the Univeristy of Nebraska at Omaha. Alongside going to University I work at Hyvee's restaurant part time where I've learned many helpful skills. </p>
+</section>
+
+<section>
+<div style="display: flex; justify-content: space-around;">
+  <img src="{{ url_for('static', filename='images/uno.png') }}" alt="uno logo" style="max-width: 15%;">
+  <img src="{{ url_for('static', filename='images/hyvee.png') }}" alt="hyvee logo" style="max-width: 15%;">
+</div>
+</section>
+
+<section>
+<h1>Interests / Hobbies </h1>
+<p> In my free time I like to do many things. My current favorite thing is probably going to the gym and keeping up with my health. Although, I also love biking, longboarding, investing, videogames, and much more. I've also recently taken an interest in cooking. </p>
+</section>
+
+<section>
+<div style="display: flex; justify-content: space-around;">
+  <img src="{{ url_for('static', filename='images/gym.png') }}" alt="gym" style="max-width: 30%; height: auto;">
+  <img src="{{ url_for('static', filename='images/biking.png') }}" alt="biking" style="max-width: 30%; height: auto;">
+</div>
+</section>
+
+{% endblock %}

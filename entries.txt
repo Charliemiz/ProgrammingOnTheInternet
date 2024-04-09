@@ -1,0 +1,6 @@
+1672531200|Welcome to My Blog|<p>Hello everyone! This is my first blog post. I'm excited to share my thoughts and experiences here.</p>
+1675209600|Tips for Effective Web Development|<p>As a web developer, it's important to keep learning. Here are my top 5 tips for staying at the top of your game.</p>
+1677628800|Exploring the World of Music|<p>Music has always been a passion of mine. In this post, I'll discuss my favorite genres and artists.</p>
+1680307200|Movie Review: The Future of Cinema|<p>Last night I watched an amazing movie. Let me share my thoughts on how it represents the future of cinema.</p>
+1682899200|The Joy of Teaching|<p>Teaching is not just a job, it's a journey. Here, I reflect on my experiences as an educator.</p>
+1698426831|Links and Images!|<p>This <b>particular blog entry</b> contains links and images.</p><p>I can <a href="http://www.unomaha.edu" target="_blank">link</a> to things and include images.  Like this one:<p><img style="width: 45%;" src="http://bit.ly/2f0sGJq" alt="retf!" title="retf!" ></p>

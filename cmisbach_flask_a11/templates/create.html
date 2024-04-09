@@ -1,0 +1,25 @@
+{% extends "base.html" %}
+
+{% block title %}Create Link{% endblock %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block body %}
+  <h1> Simplify.Link creation!</h1>
+  <p>
+    Welcome to Simplify.link! Easily turn long URLs into neat, short links with our tool.
+    Just paste your link, click to shorten, and share your cleaner URL anywhere. Get started now!
+  </p>
+
+  <section class="input_container">
+      <form action="{{ url_for('process') }}" method="post">
+         <p>
+           <label for="link">Paste long URL here:</label>
+           <input type="url" id="link" name="link" placeholder="http://sample.com/whatever.stuff" required style="width: 70%;">
+           <input type="submit" value="Simplify Link!">
+        </p>
+      </form>
+  </section>
+{% endblock %}

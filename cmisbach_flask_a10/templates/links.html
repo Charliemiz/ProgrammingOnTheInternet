@@ -1,0 +1,13 @@
+{% extends "base.html" %}
+
+{% block body %}
+  <h1>Here are some links for you!</h1>
+  <p>They contain lots of info on python, flask etc!</p>
+  <ul>
+    {% for link in links %}
+      <li><a href="{{ link.url }}" target="_blank">{{ link.text }}</a></li>
+    {% else %}
+      <li>No links found.</li>
+    {% endfor %}
+  </ul>
+{% endblock %}

@@ -1,0 +1,6 @@
+{% extends "base.html" %}
+
+{% block body %}
+  <h1>Link Created Successfully!</h1>
+  <p>Your shortened link is: <a href="{{ url_for('go', id=shortcode) }}">{{ shortcode }}</a></p>
+{% endblock %}

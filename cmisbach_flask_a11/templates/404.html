@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block title %}Resource Not Found{% endblock %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block banner %}
+  <!-- No banner image on the 404 page -->
+{% endblock %}
+
+{% block body %}
+<section>
+<h1>That resource doesn't seem to exist!</h1>
+<img src="{{ url_for('static', filename="images/404_number.jpg") }}" alt="404">
+</section>
+{% endblock %}
+
